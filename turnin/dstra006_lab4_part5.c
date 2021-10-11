@@ -114,7 +114,7 @@ void Tick() {
       break;
 
     case (SM_Increment):
-    currentPos = currentPos + 1;
+    currentPos = currentPos + 0x01;
       if (currentPos == 7) {
         currentPos = 0;
       }
